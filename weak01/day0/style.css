@@ -1,0 +1,81 @@
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+#header {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    background-color: #333333;
+    overflow: hidden;
+}
+
+#logo {
+    position: absolute;
+    width: fit-content;
+    padding: 15px 0px 15px 10%;
+}
+
+
+
+
+#header a {
+    
+    float: right;
+    text-align: center;
+    padding: 14px 100px 14px 0px;
+    
+    color: #ff0099;
+    font-size: 30px;
+    text-underline-position: below;
+}
+
+#Contener {
+    position: absolute;
+    padding: 0px;
+    background-image: url("assets/background.png");
+    padding: 0px 10%;
+}
+
+#name {
+    padding-top: 40px;
+}
+
+#name h1 {
+    font-size: 70px;
+}
+
+#name h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #ff0099;
+}
+
+#techWiki {
+    font-size: 30px;
+    
+}
+
+#techWiki h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+#techWiki h1{
+    text-align: center;
+}
+
+#content h2 {
+    font-size: 30px;
+
+}
+
+p {
+    font-size: 20px;
+    font-family: cursive;
+}
