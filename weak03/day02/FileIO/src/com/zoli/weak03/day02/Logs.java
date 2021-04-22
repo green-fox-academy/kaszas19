@@ -16,6 +16,7 @@ public class Logs {
     // Each line represents a log message from a web server
     // Write a function that returns an array with the unique IP adresses
     // Write a function that returns the GET / POST request ratio
+
     System.out.println(uniqueIp(adresses()));
     System.out.println(ratio(adresses()));
     // uniqueIp(adresses());
