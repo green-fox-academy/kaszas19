@@ -21,7 +21,7 @@ public class Pirate {
     }
   }
 
-  public void drinkSomeRun() {
+  public void howsItGoingMate() {
     if (isAlive) {
       if (toxicaterate < 4) {
         System.out.println("Pour me anudder!");
