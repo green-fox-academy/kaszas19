@@ -2,7 +2,7 @@ package com.zoli.week04.day01.OrgInheritance;
 
 import com.zoli.week04.day01.OrgInheritance.Person;
 
-public class Student extends Person implements Cloneable{
+public class Student extends Person {
   private String previousOrganization;
   private int skippedDays;
 
@@ -45,13 +45,4 @@ public class Student extends Person implements Cloneable{
             + skippedDays
             + " days from the course already.");
   }
-
-  @Override
-  protected Object clone() throws CloneNotSupportedException {
-
-    return super.clone();
-  }
-
-
-
 }

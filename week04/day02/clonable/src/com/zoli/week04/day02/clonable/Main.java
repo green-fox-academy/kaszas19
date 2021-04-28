@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Main {
 
-    public static void main(String[] args) throws CloneNotSupportedException {
+    public static void main(String[] args) {
         ArrayList<Person> people = new ArrayList<>();
 
         Person mark = new Person("Mark", 46, "male");
@@ -23,8 +23,6 @@ public class Main {
         people.add(sponsor);
         Sponsor elon = new Sponsor("Elon Musk", 46, "male", "SpaceX");
         people.add(elon);
-
-
 
         student.skipDays(3);
 
@@ -47,16 +45,5 @@ public class Main {
         awesome.addMentor(mentor);
         awesome.addMentor(gandhi);
         awesome.info();
-
-
-        Student jon = (Student) john.clone();
-        jon.introduce();
-
-
-
-
     }
-
-
-
 }
