@@ -6,6 +6,7 @@ page 50100 DirectorList
     SourceTable = Director;
     CardPageId = DirectorCard;
     Caption = 'List of Directors';
+    Editable = false;
 
     layout
     {
